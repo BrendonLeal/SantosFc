@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+<head>
+	<title>Torcida do Santos</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="img/santos_1.ico">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Caio e Brendon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+			<a href="" class="navbar-brand p-0">
+				<a href="index.html" class="pagina-inicial" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">
+					<img src="img/santos.png" class="imagem-navbar">
+				</a>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav m-auto py-0">
+					<a href="titulos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-trophy"></i> Títulos</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-light" href="curiosidades.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<i class="fa-solid fa-question"></i> Sobre o clube
+						</a>
+						<ul class="dropdown-menu" data-bs-theme="dark">
+						  <li><a class="dropdown-item" href="curiosidades.html"><i class="fa-solid fa-question"></i> Curiosidades</a></li>
+						  <li><a class="dropdown-item" href="historia.html"><i class="fa-solid fa-book"></i> História</a></li>
+						  <li><a class="dropdown-item" href="torcida.html"><i class="fa-solid fa-user-group"></i> Torcida</a></li>
+						  <li><a class="dropdown-item" href="vilabelmiro.html"><i class="fa-solid fa-house"></i> Vila Belmiro</a></li>
+						</ul>
+					</li>
+					<a href="elenco.html" class="nav-item nav-link text-light"><i class="fa-solid fa-user-group"></i> Elenco</a>
+					<a href="pele.html" class="nav-item nav-link text-light"><i class="fa-solid fa-crown"></i> Pelé</a>
+					<a href="jogos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-calendar-days"></i> Jogos</a>
+				</div>
+				<button class="botao-contato" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i> informações</button>
+				<button class="botao-contato" data-bs-toggle="tooltip" data-bs-placement="top"
+				data-bs-custom-class="custom-tooltip"
+				data-bs-title="Saiba mais"><a href="sobrenos.html"><i class="fa-solid fa-phone"></i> Contato</a></button>
+			</div>
+		</nav>
+	<main class="container">
+		<h1 class="titulo"><i class="fa-solid fa-user-group"></i> Torcida</h1>
+
+		<div class="offcanvas offcanvas-end" data-bs-theme="dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasScrollingLabel">Curiosidades Bônus</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<h5>Alguns jogos passados</h5>
+
+				<div class="container mt-5">
+					<div id="toast1" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Guarani <img src="img/guarani-logo.png" class="imagem-list-group"> 1 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+						</div>
+					</div>
+					<div id="toast2" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Santos <img src="img/santos.png" class="imagem-list-group"> 0 X 0 <img src="img/amazonas-logo.png" class="imagem-list-group"> Amazonas
+						</div>
+					</div>
+					<div id="toast3" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Santos <img src="img/santos.png" class="imagem-list-group"> 2 X 2 <img src="img/ponte-preta-logo.png" class="imagem-list-group"> Ponte Preta
+						</div>
+					</div>
+					<div id="toast4" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Brusque <img src="img/brusque-logo.png" class="imagem-list-group"> 0 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Início</a></li>
+				<li class="breadcrumb-item"><a href="curiosidades.html">Curiosidades</a></li>
+				<li class="breadcrumb-item"><a href="historia.html">História</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Torcida</li>
+			</ol>
+		</nav>
+
+		<h6 class="conteudo">
+			A torcida do Santos Futebol Clube é uma das mais apaixonadas e tradicionais do futebol brasileiro, conhecida por seu fervoroso apoio ao clube e por sua história de conquistas. 
+			Desde a sua fundação, o Santos atraiu uma base de torcedores dedicados, que acompanham o clube tanto nos momentos de glória quanto nas adversidades.
+		</h6>
+		<h6 class="conteudo">
+			A história da torcida do Santos remonta ao início do século XX, quando o clube foi fundado em 1912 na cidade de Santos, São Paulo. Ao longo dos anos, especialmente a partir da 
+			década de 1950 com a ascensão de ídolos como Pelé, a torcida santista cresceu significativamente em número e fervor. O sucesso nacional e internacional do clube durante a Era de Ouro, 
+			com conquistas como as Libertadores e os Mundiais Interclubes, solidificou o Santos como um dos times mais admirados do Brasil.
+		</h6>
+		<h6 class="conteudo">
+			A torcida do Santos é organizada em diversas torcidas organizadas, como a Torcida Jovem do Santos (TJS) e a Sangue Jovem, que desempenham um papel crucial em mobilizar os torcedores e 
+			criar uma atmosfera vibrante nos estádios. Essas torcidas não apenas apoiam o time durante os jogos, mas também organizam eventos sociais, caravanas para acompanhar o time em jogos fora 
+			de casa, e promovem a cultura e a identidade santista entre seus membros.
+		</h6>
+		<h6 class="conteudo">
+			Os torcedores do Santos são conhecidos por sua identificação profunda com o clube e por expressarem seu apoio de maneira apaixonada. Além dos estádios, a torcida santista é ativa nas redes 
+			sociais, onde compartilha conteúdos relacionados ao clube, discute resultados e interage com outros torcedores ao redor do mundo. Essa conexão virtual amplia ainda mais o alcance e a influência 
+			da torcida, mantendo viva a chama do santismo em todas as partes.
+		</h6>
+		<h6 class="conteudo">
+			O legado da torcida do Santos é marcado por momentos memoráveis de apoio incondicional, como a famosa frase "Santos, o time da virada", que reflete a crença e a esperança dos torcedores mesmo nos 
+			momentos mais desafiadores. Para o futuro, a torcida do Santos continua a ser um pilar fundamental do clube, inspirando gerações de santistas a manterem viva a tradição de amor e dedicação ao 
+			Alvinegro Praiano.
+		</h6>
+		<h6 class="conteudo">
+			Assim, a torcida do Santos não é apenas um grupo de admiradores, mas uma comunidade apaixonada que faz parte integrante da história e do sucesso do clube ao longo dos anos.
+		</h6>
+		<h6 class="conteudo">
+			A paixão dos torcedores do Santos é uma característica notável, enraizada na história de grandes jogadores e conquistas do clube. Desde os tempos áureos com Pelé até as gerações mais recentes, como 
+			Neymar e Robinho, a torcida santista demonstra um apoio fervoroso e uma lealdade que atravessa gerações. O amor pelo clube transcende os resultados em campo, e os torcedores estão sempre presentes, 
+			seja nos estádios ou acompanhando de longe.
+		</h6>
+		<h6 class="conteudo">
+			As torcidas organizadas do Santos desempenham um papel vital em mobilizar e unir os torcedores. A Torcida Jovem do Santos (TJS), fundada em 1969, é uma das mais antigas e emblemáticas, 
+			conhecida por suas festas nas arquibancadas e seu apoio constante ao time. Além dela, a Sangue Jovem e outras torcidas menores também contribuem significativamente para a atmosfera 
+			festiva nos estádios e fora deles, organizando caravanas e eventos que fortalecem o vínculo entre os torcedores.
+		</h6>
+		<h6 class="conteudo">
+			O santista não se limita apenas ao apoio durante os jogos. A torcida do Santos expressa sua identidade através de cânticos, bandeiras, faixas e coreografias que adornam as 
+			arquibancadas e criam uma atmosfera única nos estádios. Essa expressão cultural é um reflexo da história e dos valores que o clube representa para seus seguidores, sendo parte 
+			essencial da experiência de ser santista.
+		</h6>
+		<h6 class="conteudo">
+			O Santos possui uma base de torcedores não apenas na Baixada Santista e no estado de São Paulo, mas em todo o Brasil e em várias partes do mundo. O alcance global da torcida é 
+			ampliado pelas redes sociais e pela presença digital, onde os santistas compartilham seu amor pelo clube e interagem com outros torcedores, fortalecendo a comunidade santista ao 
+			redor do globo.
+		</h6>
+		<h6 class="conteudo">
+			Para o futuro, a torcida do Santos continua a desempenhar um papel crucial no apoio ao clube, especialmente em tempos de desafios e reconstrução. A união dos torcedores em torno 
+			do Santos não só mantém viva a história gloriosa do clube, mas também inspira novas gerações a seguirem os passos dos grandes ídolos e a escreverem novos capítulos de sucesso na 
+			trajetória alvinegra. Em resumo, a torcida do Santos não é apenas um componente do clube, mas uma força motriz que impulsiona sua história, sua cultura e sua paixão pelo futebol.
+		</h6>
+		<h2 class="subtitulo2">Torcidas Organizadas do Santos FC</h2>
+				<table class=" table table-dark table-striped table-hover table-bordered border-secundary tabela-torcida" >
+						<tr>
+							<th>Nome da Organizada</th>
+							<th>Sigla</th>
+							<th>Ano de fundação	</th>
+							<th>Quantidade de associados</th>
+						</tr>
+						<tr>
+							<td>Torcida Jovem do Santos</td>
+							<td>TJS</td>
+							<td>1969</td>
+							<td>Cerca de 70 mil</td>
+						</tr>
+						<tr>
+							<td>Sangue Jovem</td>
+							<td>SJ</td>
+							<td>1992</td>
+							<td>Cerca de 60 mil</td>
+						</tr>
+						<tr>
+							<td>Torcida Organizada Força Jovem</td>
+							<td>TOFJ</td>
+							<td>1977</td>
+							<td>Cerca de 15 mil</td>
+							
+						</tr>
+						<tr>
+							<td>Camisa 10</td>
+							<td>C10</td>
+							<td>2017</td>
+							<td>cerca de 40 mil</td>
+						</tr>
+						<tr>
+							<td>Bonde do Braço Fino</td>
+							<td>BBF</td>
+							<td>2008</td>
+							<td>Cerca de 15 mil</td>
+						</tr>
+				</table>
+				<nav aria-label="Page navigation example d-flex" data-bs-theme="dark">
+					<ul class="pagination justify-content-center paginacao-fundo">
+					  <li class="page-item"><a class="page-link text-light" href="historia.html">Previous</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="curiosidades.html">1</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="historia.html">2</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="torcida.html">3</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="vilabelmiro.html">4</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="vilabelmiro.html">Next</a></li>
+					</ul>
+				</nav>
+		</section>
+		<footer>
+			<div class="card-body">
+				<h5 class="card-title">Fim da página que fala sobre a torcida do Santos</h5>
+				<p class="card-text">Se quiser ver mais informações sobre o Santos, como títulos, história e curiosidades, clique no botão abaixo!</p>
+				<a href="index.html" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">Clique aqui e volte para a página inicial!</a>
+			  </div>
+			<div class="alert alert-dark" role="alert">
+				<h6 class="conteudo">Projeto desenvolvido por: Caio Ricardo e Brendon <i class="fa-regular fa-copyright"></i></h6>
+			</div>
+		</footer>
+	</main>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>

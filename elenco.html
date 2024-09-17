@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Elenco do Santos</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/santos_1.ico">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Caio e Brendon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <a href="index.html" class="pagina-inicial" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">
+                <img src="img/santos.png" class="imagem-navbar">
+            </a>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="titulos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-trophy"></i> Títulos</a>
+                <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-light" href="curiosidades.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="fa-solid fa-question"></i> Sobre o clube
+					</a>
+					<ul class="dropdown-menu" data-bs-theme="dark">
+					  <li><a class="dropdown-item" href="curiosidades.html"><i class="fa-solid fa-question"></i> Curiosidades</a></li>
+					  <li><a class="dropdown-item" href="historia.html"><i class="fa-solid fa-book"></i> História</a></li>
+					  <li><a class="dropdown-item" href="torcida.html"><i class="fa-solid fa-user-group"></i> Torcida</a></li>
+					  <li><a class="dropdown-item" href="vilabelmiro.html"><i class="fa-solid fa-house"></i> Vila Belmiro</a></li>
+					</ul>
+				</li>
+                <a href="elenco.html" class="nav-item active nav-link text-light"><i class="fa-solid fa-user-group"></i> Elenco</a>
+                <a href="pele.html" class="nav-item nav-link text-light"><i class="fa-solid fa-crown"></i> Pelé</a>
+                <a href="jogos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-calendar-days"></i> Jogos</a>
+            </div>
+            <button class="botao-contato" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i> informações</button>
+            <button class="botao-contato" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            data-bs-title="Saiba mais"><a href="sobrenos.html"><i class="fa-solid fa-phone"></i> Contato</a></button>
+        </div>
+    </nav>
+    <main class="container">
+        <h1 class="titulo"><i class="fa-solid fa-users"></i> Elenco</h1>
+
+        <div class="offcanvas offcanvas-end" data-bs-theme="dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasScrollingLabel">Curiosidades Bônus</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					<p>Try scrolling the rest of the page to see this option in action.</p>
+				</div>
+				<h5>Alguns jogos passados</h5>
+
+				<div class="container mt-5">
+					<div id="toast1" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Guarani <img src="img/guarani-logo.png" class="imagem-list-group"> 1 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+						</div>
+					</div>
+					<div id="toast2" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Santos <img src="img/santos.png" class="imagem-list-group"> 0 X 0 <img src="img/amazonas-logo.png" class="imagem-list-group"> Amazonas
+						</div>
+					</div>
+					<div id="toast3" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Santos <img src="img/santos.png" class="imagem-list-group"> 2 X 2 <img src="img/ponte-preta-logo.png" class="imagem-list-group"> Ponte Preta
+						</div>
+					</div>
+					<div id="toast4" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+						<div class="toast-header justify-content-between">
+							<div class="torneio">
+								<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+							</div>
+							<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+						</div>
+						<div class="toast-body">
+							Brusque <img src="img/brusque-logo.png" class="imagem-list-group"> 0 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+						</div>
+					</div>
+				</div>
+            </div>
+		</div>
+	</main>
+
+        
+
+		<div class="container-carousel-posicao">
+			<div class="elemento-pai-container-posicao">
+				<div class="container-posicao">
+					<h1 class="titulo">Goleiros</h1>
+				</div>
+			</div>
+			<!-- carousel -->
+			<div class="elemento-pai-carousel">
+				<div id="carouselExampleIndicators" class="carousel slide carousel-fundo">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card d-block w-100">
+								<img src="img/joao-paulo.jpg" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>João Paulo</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: GOL</p>
+										<p>Camisa: #1</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/gabriel-brasao.jpg" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Gabriel Brasão</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: GOL</p>
+										<p>Camisa: #77</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/diogenes.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Diógenes</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: GOL</p>
+										<p>Camisa: #12</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+						<span class="carousel-control-next-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+	
+				<!-- Fim carousel -->
+				</div>
+			</div>
+		</div>
+
+		<div class="container-carousel-posicao">
+			<div class="elemento-pai-container-posicao">
+				<div class="container-posicao">
+					<h1 class="titulo">Zagueiros</h1>
+				</div>
+			</div>
+			<!-- carousel -->
+			<div class="elemento-pai-carousel">
+				<div id="carouselExampleIndicators1" class="carousel slide carousel-fundo">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card d-block w-100">
+								<img src="img/alex-nascimento.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Alex Nascimento</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: ZAG</p>
+										<p>Camisa: #2</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/gil.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Gil</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: ZAG</p>
+										<p>Camisa: #4</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/jair.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Jair</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: ZAG</p>
+										<p>Camisa: #32</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/joao-basso.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>João Basso</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: ZAG</p>
+										<p>Camisa: #15</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/luan-peres.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Luan Peres</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: ZAG</p>
+										<p>Camisa: #</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+						<span class="carousel-control-next-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+	
+				<!-- Fim carousel -->
+				</div>
+			</div>
+		</div>
+
+		<div class="container-carousel-posicao">
+			<div class="elemento-pai-container-posicao">
+				<div class="container-posicao">
+					<h1 class="titulo">Laterais</h1>
+				</div>
+			</div>
+			<!-- carousel -->
+			<div class="elemento-pai-carousel">
+				<div id="carouselExampleIndicators2" class="carousel slide carousel-fundo">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card d-block w-100">
+								<img src="img/gonzalo-escobar.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Gonzalo Escobar</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LE</p>
+										<p>Camisa: #31</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/kevyson.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Kevyson</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LE</p>
+										<p>Camisa: #38</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/souza.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Souza</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LE</p>
+										<p>Camisa: #33</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/aderlan.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Aderlan</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LD</p>
+										<p>Camisa: #13</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/hayner.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Hayner</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LD</p>
+										<p>Camisa: #3</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/souza.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>JP Chermont</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LD</p>
+										<p>Camisa: #44</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card d-block w-100">
+								<img src="img/rodrigo-ferreira.png" class="card-img-top imagens-cards">
+								<div class="card-body bg-dark text-light">
+									<h1>Rodrigo Ferreira</h1>
+									<div class="corpo-card-beetween d-flex justify-content-between">
+										<p class="card-text">Pos: LD</p>
+										<p>Camisa: #29</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+						<span class="carousel-control-next-icon" style="filter: invert();" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+	
+				<!-- Fim carousel -->
+				</div>
+			</div>
+		</div>
+
+		<nav aria-label="Page navigation example d-flex" data-bs-theme="dark">
+			<ul class="pagination justify-content-center paginacao-fundo">
+			  <li class="page-item"><a class="page-link text-light" href="elenco.html">Previous</a></li>
+			  <li class="page-item"><a class="page-link text-light" href="elenco.html">1</a></li>
+			  <li class="page-item"><a class="page-link text-light" href="elenco2.html">2</a></li>
+			  <li class="page-item"><a class="page-link text-light" href="elenco2.html">Next</a></li>
+			</ul>
+		</nav>
+
+        
+		 <main class="container">
+			<footer>
+				<div class="card-body">
+					<h5 class="card-title">Fim da página o elenco!</h5>
+					<p class="card-text">Se quiser ver informações sobre o Santos, como títulos, história, curiosidades e torcida, clique no botão abaixo!</p>
+					<a href="index.html" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">Clique aqui e volte para a página inicial!</a>
+					</div>
+					<div class="alert alert-dark" role="alert">
+					<h6 class="conteudo">Projeto desenvolvido por: Brendon Leal e Caio Ricardo <i class="fa-regular fa-copyright"></i></h6>
+				</div>
+			</footer>
+		</main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

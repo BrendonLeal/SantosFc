@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+<head>
+	<title>História do Santos</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="img/santos_1.ico">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Caio e Brendon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+			<a href="" class="navbar-brand p-0">
+				<a href="index.html" class="pagina-inicial" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">
+					<img src="img/santos.png" class="imagem-navbar">
+				</a>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+				<span class="fa fa-bars"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav m-auto py-0">
+					<a href="titulos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-trophy"></i> Títulos</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-light" href="curiosidades.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<i class="fa-solid fa-question"></i> Sobre o clube
+						</a>
+						<ul class="dropdown-menu" data-bs-theme="dark">
+						  <li><a class="dropdown-item" href="curiosidades.html"><i class="fa-solid fa-question"></i> Curiosidades</a></li>
+						  <li><a class="dropdown-item" href="historia.html"><i class="fa-solid fa-book"></i> História</a></li>
+						  <li><a class="dropdown-item" href="torcida.html"><i class="fa-solid fa-user-group"></i> Torcida</a></li>
+						  <li><a class="dropdown-item" href="vilabelmiro.html"><i class="fa-solid fa-house"></i> Vila Belmiro</a></li>
+						</ul>
+					</li>
+					<a href="elenco.html" class="nav-item nav-link text-light"><i class="fa-solid fa-user-group"></i> Elenco</a>
+					<a href="pele.html" class="nav-item nav-link text-light"><i class="fa-solid fa-crown"></i> Pelé</a>
+					<a href="jogos.html" class="nav-item nav-link text-light"><i class="fa-solid fa-calendar-days"></i> Jogos</a>
+				</div>
+				<button class="botao-contato" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-plus"></i> informações</button>
+				<button class="botao-contato" data-bs-toggle="tooltip" data-bs-placement="top"
+				data-bs-custom-class="custom-tooltip"
+				data-bs-title="Saiba mais"><a href="sobrenos.html"><i class="fa-solid fa-phone"></i> Contato</a></button>
+			</div>
+		</nav>
+		<section>
+			<div class="container">
+				<h1 class="titulo"><i class="fa-solid fa-book"></i> História</h1>
+
+				<div class="offcanvas offcanvas-end" data-bs-theme="dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasScrollingLabel">Curiosidades Bônus</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<div class="alert alert-secondary" role="alert">
+							<p>Try scrolling the rest of the page to see this option in action.</p>
+						</div>
+						<div class="alert alert-secondary" role="alert">
+							<p>Try scrolling the rest of the page to see this option in action.</p>
+						</div>
+						<div class="alert alert-secondary" role="alert">
+							<p>Try scrolling the rest of the page to see this option in action.</p>
+						</div>
+						<h5>Alguns jogos passados</h5>
+		
+						<div class="container mt-5">
+							<div id="toast1" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="1000000000">
+								<div class="toast-header justify-content-between">
+									<div class="torneio">
+										<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+									</div>
+									<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+								</div>
+								<div class="toast-body">
+									Guarani <img src="img/guarani-logo.png" class="imagem-list-group"> 1 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+								</div>
+							</div>
+							<div id="toast2" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+								<div class="toast-header justify-content-between">
+									<div class="torneio">
+										<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+									</div>
+									<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+								</div>
+								<div class="toast-body">
+									Santos <img src="img/santos.png" class="imagem-list-group"> 0 X 0 <img src="img/amazonas-logo.png" class="imagem-list-group"> Amazonas
+								</div>
+							</div>
+							<div id="toast3" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+								<div class="toast-header justify-content-between">
+									<div class="torneio">
+										<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+									</div>
+									<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+								</div>
+								<div class="toast-body">
+									Santos <img src="img/santos.png" class="imagem-list-group"> 2 X 2 <img src="img/ponte-preta-logo.png" class="imagem-list-group"> Ponte Preta
+								</div>
+							</div>
+							<div id="toast4" class="toast mb-2" role="alert" aria-live="assertive" aria-atomic="true"  data-bs-delay="1000000000">
+								<div class="toast-header justify-content-between">
+									<div class="torneio">
+										<img src="img/brasileirao-serie-b-logo.png" class="imagem-list-group-logo"> Série B
+									</div>
+									<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+								</div>
+								<div class="toast-body">
+									Brusque <img src="img/brusque-logo.png" class="imagem-list-group"> 0 X 1 <img src="img/santos.png" class="imagem-list-group"> Santos
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html">Início</a></li>
+						<li class="breadcrumb-item"><a href="curiosidades.html">Curiosidades</a></li>
+						<li class="breadcrumb-item active" aria-current="page">História</li>
+					</ol>
+				</nav>
+
+				<h6 class="conteudo">
+					O Santos Futebol Clube, uma das mais prestigiadas instituições esportivas do Brasil e do mundo, tem uma história rica e cheia de conquistas que marcaram o cenário do futebol 
+					ao longo dos anos. Fundado em 14 de abril de 1912 na cidade litorânea de Santos, São Paulo, o clube foi idealizado por três jovens amigos: Raymundo Marques, Mário Ferraz de 
+					Campos e Argemiro de Souza Júnior. Desde seu surgimento, o Santos FC se destacou não apenas pela qualidade técnica de seus jogadores, mas também pela cultura de jogo ofensivo 
+					e habilidoso que se tornou sua marca registrada.
+				</h6>
+				<h6 class="conteudo">
+					Nos primeiros anos de existência, o Santos FC participou de competições locais e regionais, crescendo gradualmente até se consolidar como uma potência do futebol brasileiro 
+					nas décadas seguintes. A ascensão meteórica do clube ganhou impulso nos anos 1950 com a chegada de Pelé, o maior jogador de futebol de todos os tempos. Sob a liderança de Pelé,
+					o Santos FC conquistou inúmeros títulos importantes, incluindo a Copa Libertadores da América e o Mundial Interclubes, elevando não apenas o prestígio do clube, mas também a 
+					imagem do futebol brasileiro no cenário internacional.
+				</h6>
+				<h6 class="conteudo">
+					Além de Pelé, o Santos FC teve em suas fileiras jogadores lendários como Coutinho, Pepe, Zito, Carlos Alberto Torres, entre outros, que contribuíram para a rica história de 
+					sucesso do clube. A década de 1960 foi especialmente brilhante para o Santos, que dominou o futebol sul-americano e mundial com um estilo de jogo ofensivo e envolvente que 
+					encantou fãs ao redor do globo.
+				</h6>
+				<h6 class="conteudo">
+					Ao longo das décadas seguintes, o Santos FC continuou a ser um protagonista no cenário nacional, conquistando vários títulos estaduais e participando regularmente das 
+					principais competições brasileiras. Apesar dos altos e baixos, o clube sempre manteve sua identidade e sua base de torcedores apaixonados, que apoiam o time tanto nos 
+					momentos de glória quanto nas adversidades.
+				</h6>
+				<h6 class="conteudo">
+					Hoje, o Santos FC continua a escrever sua história com novos capítulos, desenvolvendo jovens talentos e buscando retornar aos tempos de glória que o consagraram como um dos 
+					grandes clubes do futebol mundial. Com uma base sólida de tradição, paixão e excelência esportiva, o Santos FC permanece como um símbolo de orgulho para sua torcida e como 
+					uma referência de sucesso e inovação no esporte.
+				</h6>
+				<figure class="figure">
+					<img src="img/fundadores-santos-fc.jpg" class="figure-img img-fluid rounded imagem-figure" alt="Fundadores do Santos Futebol Clube">
+					<figcaption class="figure-caption">Fundadores do Santos Futebol Clube</figcaption>
+				</figure>
+				<h1 class="titulo2"><i class="fa-solid fa-user-slash"></i> Rivalidades</h1>
+				<h5 class="subtitulo2">Rivalidade contra o Corinthians</h5>
+				<h6 class="conteudo">
+					A rivalidade entre Santos Futebol Clube e Sport Club Corinthians Paulista é uma das mais intensas e tradicionais do futebol brasileiro. Com raízes profundas na história
+					e cultura do esporte no país, essa rivalidade é marcada por confrontos emocionantes e momentos memoráveis.
+				</h6>
+				<h6 class="conteudo">
+					A rivalidade começou a se desenvolver nas primeiras décadas do século XX, logo após a fundação do Santos em 1912 e do Corinthians em 1910. Os dois clubes se 
+					enfrentaram pela primeira vez em 22 de junho de 1913, com uma vitória do Corinthians por 2 a 1. Desde então, os encontros entre as duas equipes têm sido 
+					frequentemente decisivos e emocionantes.
+				</h6>
+				<h6 class="conteudo">
+					Nos anos 1950 e 1960, a rivalidade se intensificou, especialmente com a ascensão do Santos de Pelé. Durante essa época, o Santos se tornou uma potência do 
+					futebol mundial, conquistando títulos importantes como a Libertadores e o Mundial Interclubes. Os confrontos contra o Corinthians nessa época eram aguardados 
+					com grande expectativa, já que os dois clubes tinham elencos fortes e jogos disputados.
+				</h6>
+				<h6 class="conteudo">
+					Um dos clássicos memoráveis foi a final do Campeonato Paulista de 1954. O Corinthians venceu o Campeonato Paulista no ano de seu quarto centenário, uma conquista 
+					que ficou marcada na história do clube e que ampliou a rivalidade. Na década de 1960, durante os anos de ouro do Santos, com Pelé no auge de sua carreira, os jogos 
+					contra o Corinthians frequentemente terminavam em vitórias santistas, aumentando a intensidade da disputa. 
+				</h6>
+				<h6 class="conteudo">
+					Na década de 1970 e 1980, com a saída de Pelé, a rivalidade se manteve forte, embora os dois clubes passassem por momentos de reestruturação. Nos anos 1990, 
+					a rivalidade ganhou novos contornos com a ascensão de novos talentos como Robinho e Diego no Santos, e figuras como Marcelinho Carioca e Ronaldo no Corinthians.
+				</h6>
+				<h6 class="conteudo">
+					Um dos momentos mais marcantes da rivalidade recente foi a final do Campeonato Paulista de 2002, onde o Santos, liderado por jovens talentos como Robinho e Diego,
+					venceu o Corinthians e conquistou o título, iniciando uma nova era de sucesso para o clube da Vila Belmiro.
+				</h6>
+				<h6 class="conteudo">
+					A rivalidade entre Santos e Corinthians é uma parte essencial da cultura futebolística de São Paulo e do Brasil. Os jogos entre os dois clubes, conhecidos como 
+					"Clássico Alvinegro", são sempre aguardados com grande expectativa por torcedores e são sinônimos de emoção, técnica e história.
+				</h6>
+				<h6 class="conteudo">
+					Essa rivalidade não se limita apenas ao campo, mas também é vista nas arquibancadas, nas conversas de bar e nas redes sociais, onde os torcedores de ambos os clubes 
+					defendem suas cores com paixão. Ao longo dos anos, Santos e Corinthians têm escrito capítulos emocionantes na história do futebol brasileiro, e essa rivalidade continua 
+					a ser um dos pontos altos de cada temporada, demonstrando a riqueza e a intensidade do esporte no Brasil.
+				</h6>
+				<figure class="figure">
+					<img src="img/santosxcorinthians.jpg" class="figure-img img-fluid rounded imagem-figure" alt="Santos x Corinthians">
+					<figcaption class="figure-caption">Santos x Corinthians</figcaption>
+				</figure>
+				<h5 class="subtitulo2">Rivalidade contra o Palmeiras</h5>
+				<h6 class="conteudo">
+					A rivalidade entre Santos Futebol Clube e Sociedade Esportiva Palmeiras é uma das mais intensas e históricas do futebol brasileiro. Originada no início do século XX, 
+					quando ambos os clubes foram fundados, essa rivalidade se estabeleceu como um dos clássicos mais aguardados e disputados do estado de São Paulo e do país.
+				</h6>
+				<h6 class="conteudo">
+					Fundado em 1912 na cidade de Santos, o Santos FC rapidamente se tornou uma potência no futebol paulista e brasileiro. Por sua vez, o Palmeiras, então conhecido 
+					como Palestra Italia, foi criado em 1914 na capital paulista. Desde os primeiros encontros entre essas equipes, a competição foi marcada por jogos emocionantes e uma 
+					intensa disputa por títulos e prestígio.
+				</h6>
+				<h6 class="conteudo">
+					Na década de 1950 e 1960, a rivalidade atingiu seu ápice. O Santos, com Pelé em seu auge, conquistou diversos títulos significativos, incluindo a Copa Libertadores e o 
+					Mundial Interclubes, projetando-se internacionalmente e aumentando a rivalidade com todos os clubes, especialmente o Palmeiras. O Verdão, por sua vez, também teve seus 
+					momentos de glória nessa época, destacando-se como um dos principais adversários do Santos no cenário nacional.
+				</h6>
+				<h6 class="conteudo">
+					Ao longo das décadas seguintes, a rivalidade entre Santos e Palmeiras continuou intensa, com confrontos memoráveis em campeonatos estaduais, nacionais e até internacionais.
+					Esses jogos não apenas atraiam a atenção de milhões de torcedores, mas também alimentavam a rivalidade entre as duas torcidas, que defendem com fervor suas cores e tradições.
+				</h6>
+				<h6 class="conteudo">
+					A rivalidade não se limita apenas ao campo de jogo, estendendo-se às arquibancadas, à imprensa esportiva e às discussões entre os aficionados do futebol. Cada partida entre
+					Santos e Palmeiras é um capítulo novo na história desse clássico centenário, onde a emoção e a competição saudável são sempre garantidas.
+				</h6>
+				<h6 class="conteudo">
+					Assim, a história da rivalidade entre Santos e Palmeiras é uma narrativa rica e emblemática do futebol brasileiro, destacando-se como um dos maiores clássicos do país e 
+					refletindo a paixão e a intensidade que o esporte proporciona aos seus torcedores.
+				</h6>
+				<figure class="figure">
+					<img src="img/santosxpalmeiras.jpg" class="figure-img img-fluid rounded imagem-figure" alt="Santos x Palmeiras">
+					<figcaption class="figure-caption">Santos x Palmeiras</figcaption>
+				</figure>
+				<h5 class="subtitulo2">Rivalidade contra o São Paulo</h5>
+				<h6 class="conteudo">
+					A rivalidade entre Santos Futebol Clube e São Paulo Futebol Clube, conhecida como "San-São", é um dos clássicos mais marcantes e antigos do futebol brasileiro. Essa intensa
+					competição entre os dois clubes paulistas transcende o campo de jogo e se estende por décadas de história e tradição esportiva.
+				</h6>
+				<h6 class="conteudo">
+					O Santos FC, fundado em 1912 na cidade litorânea de Santos, rapidamente se estabeleceu como uma potência do futebol brasileiro. Por outro lado, o São Paulo FC surgiu em 1930
+					na capital paulista, consolidando-se como um dos grandes clubes do país. Desde os primeiros confrontos entre essas equipes, a rivalidade entre Santos e São Paulo se tornou 
+					uma das mais aguardadas pelos torcedores e respeitadas pelo público em geral.
+				</h6>
+				<h6 class="conteudo">
+					Nos anos dourados do futebol brasileiro, especialmente nas décadas de 1950 e 1960, a rivalidade atingiu seu ápice. O Santos, liderado por Pelé, conquistou inúmeros títulos 
+					importantes, como a Copa Libertadores e o Mundial Interclubes, elevando sua reputação internacionalmente. Enquanto isso, o São Paulo também vivia momentos de glória, com 
+					jogadores como Pelé e Raí, e conquistou diversos campeonatos paulistas e brasileiros.
+				</h6>
+				<h6 class="conteudo">
+					Os confrontos entre Santos e São Paulo não se limitavam apenas ao campo de jogo, mas também refletiam a intensa competição por prestígio, honra e o título de melhor clube
+					de São Paulo. Cada partida era um espetáculo de técnica, estratégia e paixão, atraindo multidões aos estádios e capturando a atenção da mídia esportiva.
+				</h6>
+				<h6 class="conteudo">
+					Ao longo das décadas seguintes, a rivalidade "San-São" se renovou com novas gerações de jogadores e mudanças nos cenários esportivos. Ambos os clubes continuaram a competir
+					em níveis estaduais, nacionais e internacionais, mantendo viva a chama dessa rivalidade histórica e proporcionando aos torcedores momentos de emoção e orgulho.
+				</h6>
+				<h6 class="conteudo">
+					Atualmente, Santos e São Paulo continuam a protagonizar jogos emocionantes, onde cada vitória e derrota são celebradas e lamentadas com intensidade por suas apaixonadas torcidas.
+					Mais do que uma simples disputa esportiva, a rivalidade entre Santos e São Paulo representa a rica história e a diversidade do futebol brasileiro, enriquecendo o cenário esportivo
+					nacional com sua tradição e competitividade.
+				</h6>
+				<h6 class="conteudo">
+					Assim, a história da rivalidade entre Santos e São Paulo é um testemunho da grandeza do futebol paulista e brasileiro, onde o respeito mútuo e a busca pela supremacia esportiva
+					continuam a definir os capítulos dessa emocionante narrativa esportiva.
+				</h6>
+				<figure class="figure">
+					<img src="img/santosxsaopaulo.jpg" class="figure-img img-fluid rounded imagem-figure" alt="Santos x São Paulo">
+					<figcaption class="figure-caption">Santos x São Paulo</figcaption>
+				</figure>
+				<h1 class="titulo2"><i class="fa-solid fa-fish"></i> Mascotes</h1>
+				<h6 class="conteudo">
+					A história dos mascotes do Santos Futebol Clube é interessante e reflete a identidade e a cultura do clube ao longo dos anos. 
+					Vamos explorar a evolução e a importância dos mascotes do Santos FC.
+				</h6> 
+				<h6 class="conteudo">
+					O primeiro mascote do Santos foi o Peixe. O apelido "Peixe" começou a se popularizar na década 
+					de 1950. Existem várias histórias sobre a origem desse apelido, mas uma das versões mais aceitas é que jogadores e torcedores do Santos, que eram em grande parte da 
+					cidade de Santos, eram chamados de "peixeiros" por viverem em uma cidade portuária famosa pelo mercado de peixe. Com o tempo, o apelido se solidificou no vocabulário 
+					do futebol brasileiro, tornando-se um sinônimo do clube. 
+				</h6>
+				<h6 class="conteudo">
+					A partir da década de 1950 e 1960, surgiu o mascote "Baleia". Em meados do século XX, um peixe foi escolhido como mascote oficial do clube, representando a ligação com
+					a cidade de Santos e sua tradição marítima. Com o tempo, a figura do peixe foi evoluindo e tornou-se uma baleia, uma vez que a baleia é um dos maiores animais marinhos,
+					simbolizando a grandeza e a força do clube. 
+				</h6>
+				<h6 class="conteudo">
+					Nos anos 1990, foram introduzidos dois mascotes para o clube: a Baleinha e o Baleião. A Baleinha é uma representação mais
+					amigável e carinhosa, enquanto o Baleião é uma figura mais robusta e imponente. A Baleinha geralmente aparece em eventos voltados para o público infantil, ajudando a
+					cativar jovens torcedores. O Baleião, por outro lado, aparece em jogos e eventos importantes, simbolizando a força do time.
+				</h6>
+				<h6 class="conteudo">
+					O "Papão do Mar" é um mascote alternativo. Embora não tenha uma representação específica, o apelido "Papão do Mar" é usado para ressaltar a força do clube no cenário futebolístico,
+					especialmente em suas atuações internacionais. Os mascotes são um símbolo de identidade do clube. Eles representam tanto a ligação com a cidade portuária quanto a 
+					grandeza do clube. Além disso, são usados em diversas ações de marketing e engajamento com torcedores, principalmente nas redes sociais e em eventos oficiais.
+				</h6>
+				<h6 class="conteudo">
+					A Baleinha e o Baleião são frequentemente vistos em jogos do Santos na Vila Belmiro e em outros estádios, interagindo com os torcedores. Eles também participam de atividades 
+					comunitárias e eventos sociais, promovendo a marca do Santos e contribuindo para a ligação entre o clube e a comunidade. Ao longo dos anos, os mascotes passaram por 
+					várias atualizações visuais para manter-se relevantes e atraentes para as novas gerações de torcedores. Com o advento das redes sociais, os mascotes do Santos ganharam
+					vida digital, interagindo com torcedores através de plataformas como Twitter, Instagram e Facebook. A história dos mascotes do Santos Futebol Clube é uma jornada que
+					reflete a evolução do clube e sua conexão com os torcedores. Desde o simples "peixe" até as carismáticas Baleinha e Baleião, os mascotes são um símbolo de orgulho e 
+					tradição para o Santos e sua torcida.
+				</h6>
+				<figure class="figure">
+					<img src="img/mascote.png" class="figure-img img-fluid rounded imagem-figure" alt="Mascote do Santos">
+					<figcaption class="figure-caption">Mascote do Santos</figcaption>
+				</figure>
+				<h1 class="titulo2"><i class="fa-solid fa-palette"></i> Brasão do Santos</h1>
+				<h6 class="conteudo">
+					A história do logo do Santos Futebol Clube é marcada por uma série de evoluções que refletem a rica trajetória e a identidade do clube desde sua fundação em 14 de abril de 1912.
+				</h6>
+				<h6 class="conteudo">
+					Nos primeiros anos de sua existência, o Santos não tinha um logo oficial definido. Os uniformes eram brancos, e o distintivo do clube ainda estava em desenvolvimento.
+					Foi apenas na década de 1920 que surgiu a primeira versão do escudo, com um design simples que incluía as iniciais "SFC" entrelaçadas.
+				</h6>
+				<h6 class="conteudo">
+					Na década de 1930, o Santos introduziu um escudo mais formal. Esse design incluía um formato de escudo tradicional com as iniciais "SFC" em destaque. As cores preto
+					e branco, que se tornariam as cores oficiais do clube, começaram a ser incorporadas mais claramente nesta fase.
+				</h6>
+				<h6 class="conteudo">
+					Durante a era de Pelé, na década de 1950 e 1960, o Santos ganhou reconhecimento mundial. O logo evoluiu para um formato mais moderno e estilizado, refletindo o 
+					sucesso global do clube. Foi nessa época que o escudo começou a incorporar as listras verticais em preto e branco, com uma bola de futebol no centro e as iniciais 
+					"SFC" em um formato mais claro e distinto.
+				</h6>
+				<h6 class="conteudo">
+					Nos anos 1970, o Santos consolidou seu escudo, mantendo o design com as listras verticais em preto e branco e a bola de futebol centralizada. Pequenas atualizações
+					foram feitas para modernizar o logo, mas a essência e os elementos principais foram preservados.
+				</h6>
+				<h6 class="conteudo">
+					O escudo atual do Santos é uma evolução dos designs anteriores, mantendo as características clássicas que o tornaram icônico. Ele apresenta um escudo dividido 
+					verticalmente em listras pretas e brancas. No topo, há uma bola de futebol, e as iniciais "SFC" estão estilizadas em uma fonte clássica. Além disso, há duas estrelas
+					amarelas acima do escudo, representando os títulos mundiais conquistados pelo clube em 1962 e 1963.
+				</h6>
+				<h6 class="conteudo">
+					O logo do Santos é um símbolo de orgulho e tradição. As cores preto e branco refletem a identidade do clube, e as estrelas acima do escudo celebram os triunfos 
+					históricos no cenário mundial. A bola de futebol centralizada e as iniciais "SFC" destacam a essência do clube como uma potência do futebol.
+				</h6>
+				<figure class="figure">
+					<img src="img/logosdosantos.jpg" class="figure-img img-fluid rounded imagem-figure" alt="Logos do Santos FC">
+					<figcaption class="figure-caption">Logos do Santos FC</figcaption>
+				</figure>
+				<h6 class="conteudo">
+					A história do logo do Santos Futebol Clube é uma jornada de evolução e modernização, mantendo sempre a tradição e a identidade do clube. Desde as iniciais 
+					entrelaçadas até o escudo estilizado atual, o logo do Santos é um símbolo reconhecido mundialmente, representando a rica história e os grandes momentos do clube ao longo dos anos.
+				</h6>
+				<nav aria-label="Page navigation example d-flex" data-bs-theme="dark">
+					<ul class="pagination justify-content-center paginacao-fundo">
+					  <li class="page-item"><a class="page-link text-light" href="curiosidades.html">Previous</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="curiosidades.html">1</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="historia.html">2</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="torcida.html">3</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="vilabelmiro.html">4</a></li>
+					  <li class="page-item"><a class="page-link text-light" href="torcida.html">Next</a></li>
+					</ul>
+				</nav>
+		</section>
+				<footer>
+					<div class="card-body">
+						<h5 class="card-title">Fim da página que fala sobre a história do Santos</h5>
+						<p class="card-text">Se quiser ver mais informações sobre o Santos, como títulos, torcida e curiosidades, clique no botão abaixo!</p>
+						<a href="index.html" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Página inicial">Clique aqui e volte para a página inicial!</a>
+					  </div>
+					<div class="alert alert-dark" role="alert">
+						<h6 class="conteudo">Projeto desenvolvido por: Caio Ricardo e Brendon <i class="fa-regular fa-copyright"></i></h6>
+					</div>
+				</footer>
+	</main>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/all.min.js"></script>
+</body>
+</html>
